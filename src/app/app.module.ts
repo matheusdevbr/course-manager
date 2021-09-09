@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { CourseListComponent } from './courses/course-list.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { StarComponent } from './star/star.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { StarComponent } from './star/star.component';
   ],
   imports: [
     BrowserModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
